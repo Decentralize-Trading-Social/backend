@@ -10,4 +10,3 @@ export const loadAccountFromPrivateKey = (privateKey: string): Account => {
     privateKey: new Ed25519PrivateKey(privateKey),
   });
 };
-
